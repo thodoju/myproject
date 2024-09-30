@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
-  function handleClick() {
+  function Increment() {
     setCount(count + 1);
   }
   function Deacrement() {
@@ -11,7 +11,7 @@ export default function Counter() {
   return (
     <div>
       <h1>Count Value is:{count}</h1>
-      <button onClick={handleClick}>Increment</button>
+      <button onClick={Increment}>Increment</button>
       <button onClick={Deacrement}>Dencrement</button>
     </div>
   );
