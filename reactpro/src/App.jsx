@@ -4,7 +4,7 @@ import Hello from "./components/Hello";
 function App() {
   return (
     <div className="App">
-      <ConditionalComponent />
+      <Fruits />
     </div>
   );
 }
